@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 735px;
+    width: 1418px;
+    background-image: url(y3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position:fixed;
+    background-color:black;
+    width: 100%;
+    opacity: 70%;
+    
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+.y{
+    color: whitesmoke;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: azure;
+    transition: .4s;
+}
+.btn{
+    background-color: azure;
+    color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: red;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: red;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(150, 42, 42);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid salmon;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: salmon;
+    color: red;
+    box-shadow: 0px 0px 5px black 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 480px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: red;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: lightcoral;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.skill{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.skill img{
+    height: auto;
+    width: 480px;
+}
+.skill-text{
+    width: 550px;
+}
+.skill-main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skill-text h2{
+    color: red;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.skill-text p{
+    color: lightcoral;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.projects{
+    background: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: red;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 398px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(29, 17, 17);
+    border-radius: 20px;
+    margin: 15px;
+    position:static;
+    overflow-y: scroll;
+    text-align: center;
+}
+.card::-webkit-scrollbar {
+    display: none;
+}
+.card i{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    color: white;
+}
+h5{
+    color: red;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: palevioletred;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.contact{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+    height: 600px;
+}
+.contact h2{
+    color: red;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.para ul li{
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.con li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.con li a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+.con li a i{
+    width: 10px;
+    height: 10px;
+}
+
+.con li a:hover{
+    color: azure;
+    transition: .4s;
+}
+.para{
+    text-align: center;
+}
+#mail{
+    text-decoration: none;
+    color: red;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background:#191919;
+    text-align: center;
+    display: flex;
+}
+footer p{
+    color: orangered;
+    font-size: 15px;
+    padding-top: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
