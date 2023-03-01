@@ -66,10 +66,11 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 .content{
-    position: absolute;
+    position:sticky;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+    margin-left: 250px;
 }
 h1{
     color: red;
