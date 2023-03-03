@@ -5,12 +5,13 @@
     box-sizing: border-box;
 }
 .hero{
-    height: 735px;
-    width: 1418px;
+     height: 735px;
+    width: 100%;
     background-image: url(y3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 nav{
     display: flex;
